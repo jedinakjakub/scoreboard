@@ -1,0 +1,67 @@
+@font-face {
+    font-family: cursedTimer;
+    src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    width: 800px;
+    background: #1B244A;
+    border-radius: 2%;
+}
+
+button {
+    color: #9AABD8;
+    font-family: cursedTimer;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 30px;
+    background: #1B244A;
+}
+
+#gamePeriod {
+    width: 90px;     
+}
+
+#newMatch {
+    width: 90px;
+}
+
+h1 {
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    font-size: 90px;
+    font-family: cursedTimer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#scorePeriode{
+    margin-left: 25px;
+}
