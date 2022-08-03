@@ -1,40 +1,42 @@
 let countHome = document.getElementById("scoreHome")
 let countGuest = document.getElementById("scoreGuest")
 let countPeriode = document.getElementById("scorePeriode")
-let count = 0
+let countG = 0
+let countH = 0
 let periode = 1
 
 function addOneHome() {
-    count += 1
-    countHome.textContent = count
+    countH += 1
+    countHome.textContent = countH
 }
 
 function addTwoHome() {
-    count += 2
-    countHome.textContent = count
+    countH += 2
+    countHome.textContent = countH
 }
 
 function addThreeHome() {
-    count += 3
-    countHome.textContent = count
+    countH += 3
+    countHome.textContent = countH
 }
 
 function addOneGuest() {
-    count += 1
-    countGuest.textContent = count
+    countG += 1
+    countGuest.textContent = countG
 }
 
 function addTwoGuest() {
-    count += 2
-    countGuest.textContent = count
+    countG += 2
+    countGuest.textContent = countG
 }
 
 function addThreeGuest() {
-    count += 3
-    countGuest.textContent = count
+    countG += 3
+    countGuest.textContent = countG
 }
 function newGame() {
-    count = 0
+    countH = 0
+    countG = 0
     periode = 1
     countHome.textContent = 0
     countGuest.textContent = 0
